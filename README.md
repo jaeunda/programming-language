@@ -37,7 +37,20 @@ An extended interpreter including variable declarations, conditionals, and loops
 ```
 
 
-## How to Run
-Each project includes its own instructions and examples:
-- [pl-p1/README.md](./pl-p1/README.md)
-- [pl-p2/README.md](./pl-p2/README.md)
+## Usage
+### pl-p1
+```
+g++ pl-p1/rd-parser.cpp -o rd-parser
+./rd-parser
+```
+
+### pl-p2
+#### C++
+```
+g++ pl-p2/rd-parser.cpp -o rd-parser
+./rd-parser
+```
+#### Python
+```
+python3 pl-p2/rd-parser.py
+```
